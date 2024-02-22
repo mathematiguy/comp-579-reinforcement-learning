@@ -18,8 +18,8 @@ jupyter:
 # Builds a Singularity container from the Singularity definition file.
 # Note: This command requires sudo privileges.
 container: $(IMAGE)
-$(IMAGE): Singularity
-	sudo singularity build $(IMAGE) $(SINGULARITY_ARGS) Singularity
+$(IMAGE): Singularity requirements.txt
+	sudo singularity build --force $(IMAGE) $(SINGULARITY_ARGS) Singularity
 
 # Starts a shell within the Singularity container, with the virtual environment activated.
 shell:

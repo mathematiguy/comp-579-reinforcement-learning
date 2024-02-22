@@ -4,3 +4,8 @@ jupyterlab
 matplotlib
 numpy
 gymnasium
+pygame
+tqdm
+pandas
+seaborn
+pyarrow
