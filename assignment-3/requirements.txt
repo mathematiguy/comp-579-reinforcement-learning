@@ -1,0 +1,11 @@
+ipython
+jupyter
+jupyterlab
+matplotlib
+numpy
+gymnasium
+pygame
+tqdm
+pandas
+seaborn
+pyarrow
